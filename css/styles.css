@@ -1,0 +1,148 @@
+/* =====================General============================= */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+/* =============================Header============================= */
+
+header {
+    border-bottom: 5px solid red;
+    /* border-bottom: 5px solid white; */
+    position: fixed;
+    width: 100%;
+    background-color: rgba(222, 0, 0, 1);
+    /* background-color: black; */
+    box-shadow: 0 0 14px rgba(0, 0, 0, 0.8);
+}
+
+.logo_plus_info {
+    display: flex;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    align-items: center;
+
+}
+
+.logo {
+    margin-top: 0.2em;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.info {
+    margin-right: 0.6em;
+}
+
+.my_info {
+    text-transform: uppercase;
+    text-align: right;
+    color: white;
+    margin: 0;
+    font-weight: 300;
+}
+
+.my_name {
+    text-transform: uppercase;
+    text-align: right;
+    color: white;
+    margin: 0;
+    font-weight: 300;
+}
+
+/* ============================Main=================================== */
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding-top: 125px;
+}
+
+.section_articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.section_header {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.article {
+    box-shadow: 0 0 4px darkgray;
+    border-radius: 8px;
+    margin: 0 0.25em 1em 0.25em;
+    transition: background 2s ease;
+}
+
+.article:hover {
+    box-shadow: 0 0 12px darkgray;
+}
+
+.article img {
+    max-width: 290px;
+}
+
+.article h1 {
+    color: black;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    margin: 0.5em 0 0.5em 0;
+    font-weight: 300;
+}
+
+.article a {
+    text-decoration: none;
+}
+
+.article_1, .article_2, .article_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    width: 100px;
+    margin: 1em;
+    padding: 0.5em;
+    border: none;
+    /* box-shadow: 0 0 4px rgb(134, 130, 130); */
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    background-color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: background 500ms ease;
+}
+
+.btn:hover {
+    background-color: #eee;
+}
+
+/* ==============================Footer============================ */
+footer {
+    background-color: #eee;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h1 {
+    font-size: 1.8em;
+    margin: 0.5em;
+    font-weight: 300;
+    display: inline-block;
+}
+
+.social_icon {
+    width: 2em;
+    margin: 0.5em 1em;
+}
