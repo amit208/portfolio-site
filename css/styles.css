@@ -156,3 +156,61 @@ footer h1 {
     width: 2em;
     margin: 0.5em 1em;
 }
+
+/* ==================================================
+for Media Query - Below 350 px
+================================================== */
+
+@media screen and (max-width: 350px) {
+
+/* ======================Header====================== */
+
+header {
+    position: relative;
+    margin-bottom: 0.5em;
+    box-shadow: none;
+}
+
+.logo {
+    width: 65px;
+}
+
+.logo_plus_info {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    margin: 0;
+}
+
+.my_name {
+    font-size: 1.8rem;
+    line-height: 2rem;
+    text-align: center;
+}
+
+.my_info {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+/* =================================Main============================ */
+main {
+    padding-top: 0px;
+}
+
+#hero img {
+    box-shadow: 0 0 4px gray;
+}
+
+.section_header {
+    text-align: center;
+}
+
+/* =================================Footer====================================== */
+
+footer h1 {
+    margin-bottom: 0;
+}
+}
