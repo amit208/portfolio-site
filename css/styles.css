@@ -147,9 +147,13 @@ footer {
 
 footer h1 {
     font-size: 1.8em;
-    margin: 0.5em;
+    margin: 0.2em;
     font-weight: 300;
     display: inline-block;
+}
+
+.social_icon_container {
+    display: flex;
 }
 
 .social_icon {
