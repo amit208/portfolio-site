@@ -218,3 +218,59 @@ footer h1 {
     margin-bottom: 0;
 }
 }
+
+/* ==================================================
+for screen size between 351 and 420 px
+================================================== */
+
+@media screen and (min-width: 351px) and (max-width: 420px) {
+
+/* ======================Header====================== */
+
+header {
+    position: fixed;
+    margin-bottom: 0.5em;
+}
+
+.logo {
+    width: 65px;
+}
+
+.logo_plus_info {
+    margin: 0 4px;
+}
+
+.info {
+    margin: 0;
+}
+
+.my_name {
+    font-size: 1.6rem;
+    line-height: 2rem;
+    text-align: right;
+}
+
+.my_info {
+    font-size: 1.4rem;
+    text-align: right;
+}
+
+/* =================================Main============================ */
+main {
+    padding-top: 90px;
+}
+
+#hero img {
+    box-shadow: 0 0 4px gray;
+}
+
+.section_header {
+    text-align: center;
+}
+
+/* =================================Footer====================================== */
+
+footer h1 {
+    margin-bottom: 0;
+}
+}
