@@ -79,12 +79,14 @@ main {
 }
 
 .section_header {
+    color: #B19490;
     font-family: sans-serif;
     font-weight: 500;
     font-size: 2rem;
 }
 
 .article {
+    color: #715853;
     max-width: 290px;
     box-shadow: 0 0 4px darkgray;
     border-radius: 8px;
@@ -102,7 +104,7 @@ main {
 }
 
 .article h1 {
-    color: black;
+    color: #715853;
     text-transform: capitalize;
     font-size: 1.6rem;
     margin: 0.5em 0 0.5em 0;
@@ -125,12 +127,14 @@ main {
 }
 
 .btn {
+    color: #584643;
+    font-weight: 500;
     width: 100px;
     margin: 1em;
     padding: 0.5em;
     border: none;
     /* box-shadow: 0 0 4px rgb(134, 130, 130); */
-    border: 2px solid lightgray;
+    border: 2px solid #8f7772;
     border-radius: 6px;
     background-color: white;
     cursor: pointer;
@@ -139,7 +143,7 @@ main {
 }
 
 .btn:hover {
-    background-color: #eee;
+    background-color: #B19490;
 }
 
 /* ==============================Footer============================ */
@@ -152,6 +156,7 @@ footer {
 }
 
 footer h1 {
+    color: #715853;
     font-size: 1.8em;
     margin: 0.2em;
     font-weight: 300;
