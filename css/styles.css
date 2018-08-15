@@ -9,11 +9,12 @@ body {
 /* =============================Header============================= */
 
 header {
-    border-bottom: 5px solid red;
-    /* border-bottom: 5px solid white; */
+    /* border-bottom: 5px solid red; */
+    border-bottom: 5px solid #B19490;
     position: fixed;
     width: 100%;
-    background-color: rgba(222, 0, 0, 1);
+    /* background-color: rgba(222, 0, 0, 1); */
+    background-color: #715853;
     box-shadow: 0 0 14px rgba(0, 0, 0, 0.8);
 }
 
