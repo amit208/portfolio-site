@@ -79,7 +79,7 @@ main {
 }
 
 .section_header {
-    color: #B19490;
+    color: #b19490;
     font-family: sans-serif;
     font-weight: 500;
     font-size: 2rem;
@@ -145,7 +145,7 @@ main {
 }
 
 .btn:hover {
-    background-color: #B19490;
+    background-color: #b19490;
 }
 
 /* ==============================Footer============================ */
